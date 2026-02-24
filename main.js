@@ -2,7 +2,7 @@
 
 function adicionarProduto(){
     const lista = document.getElementById('lista')
-    const produto = documento.getElementById('produto')
+    const produto = document.getElementById('produto')
 
     const span = document.createElement('span')
     span.textContent = produto.value
